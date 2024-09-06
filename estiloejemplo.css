@@ -1,0 +1,23 @@
+*{
+    width: 800px;
+    height: auto;
+}
+body{
+    background-color: rgb(228, 221, 227);
+    width: 800px;
+    height: 800px;
+}
+#cuadro{
+    background-color: rgb(159, 164, 164);
+    width: 1300px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.regreso{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(29, 7, 224);
+    margin-left: 900px;
+}

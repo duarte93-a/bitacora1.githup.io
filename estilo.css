@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header {
+    width: 1270px;
+    height: 200px;
+    margin: 0 auto;
+}
+.mini{
+    z-index: 2;
+    width: 40px;
+    position: relative;
+    right: 300px;
+    bottom:  -110px;
+}
+.logo{
+    
+    position: relative;
+    left: 500px;
+    filter: drop-shadow(4px 4px 6px,green);
+    z-index: 2;
+}
+
+.secondary-nav{
+
+    left: 700px;
+    bottom: -15px;
+}
+.secondary-nav a{
+    font-family: "Ga Maamli", sans-serif;
+    color: rgb(247, 247, 247);
+}
+
+.main-nav{
+    margin: 0 auto;
+    width: 1270px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.main-nav > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-family: "Ga Maamli", sans-serif;
+
+
+}
+
+.foto:hover{
+    transform: translate(20px);
+}
+
+main{
+    padding: 20px;
+    margin: 10px;
+    width: 1366px;
+    height: auto;
+    background-color: rgba(118, 99, 112, 0.663);
+    margin: 0 auto;
+}
+section{
+    width: 1300px;
+    height: 400px;
+    background-color: rgb(246, 246, 254);
+}
+.main-sec{
+    width: 1300px;
+    height:auto;
+    background-color: rgb(231, 231, 245);
+    margin-top: 33px;
+    float: left;
+
+}
+.foto{
+width: 400px;
+height: 450px;
+background-color: rgb(58, 58, 101);
+float: left;
+text-align: center;
+margin-left: 33px;
+
+
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.texto{
+    width: 800px;
+    height: 450px;
+    float: left;
+    padding: 30px;
+    margin-left: 33px;
+
+
+}
+.texto h2{
+    margin: 15px 0px;
+    font-size: 28px;
+    font-family: fantasy;
+
+
+}
+.main-nav a:hover{
+    background-color: azure;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 1366px;
+    height: 400px;
+   
+}
+.negativo{
+    width: 150px;
+    filter: grayscale(1);
+
+}
+footer section{
+  width: 300px;
+  height: 250px;
+  background-color: rgba(205, 222, 223, 0.048);
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+  padding: 20px;
+
+
+}
+footer section a{
+    color: aliceblue;
+    text-decoration: solid;
+}
+
+/* nueva area */
+header h1{
+    color: aliceblue;
+    font-size: 100px;
+    float: left 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-image: url(imagenes/matriz.jpg);
+    background-size: 100% 100%;
+
+}
+p{
+    font-size: 25px;
+
+}
+section h1{
+font-size: 50px;
+margin: 3px;
+}
+.ajuste{
+    width: 1100px;
+    height: auto;
+    margin: 70px;
+    border: 20px;
+
+}
+ul{
+   font-size: 20px;
+   list-style-type: none;
+   text-align: center;
+
+}
+.ajuste1{
+    margin: 4px;
+}
+.corre{
+    margin-left:30%;
+    margin-top: -15px;
+}
+#corre{
+    margin-top: 15px;
+}
+#corre1{
+    margin-top: -75px;
+}
+#corre2{
+    margin-top: 75px;
+}
+#ajuste{
+    height: 700px;
+}
+.boton{
+    size: 10px;
+    background-color: rgb(255, 0, 0);
+    border: 3px rgb(1, 1, 1);
+}
+#aj{
+    height:  500px;  }
+#a{
+    height: auto;
+}
+#ti{
+   
+ text-align: center;
+
+}
+#ajus{
+    height: auto;
+}
+#corre3{
+    margin-top: 75px;
+}
+#najus{
+    height: auto;
+}
+#identi{
+    height: auto;
+}
+#pr{
+    height: auto;
+}
+#pri{
+    height: auto; 
+}
+#prim{
+    height: auto;
+}
+#primo{
+    height: 500px;
+}
+#primos{
+    height: auto;
+}
+#primi{
+    height: auto;
+}
+.inicio{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 1170px;
+
+}

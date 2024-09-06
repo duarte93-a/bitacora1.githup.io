@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloejemplo.css">
+    <link rel="stylesheet" href="index.html">
+    <title>ejercicio </title>
+</head>
+
+<body>
+    <section id="cuadro">
+    <label for="peso">introduce aqui tu peso:</label>
+    <input type="text" id="peso">
+    <br><br>
+
+    <label for="planeta">selecciona el planeta:</label>
+    <select name="" id="planeta">
+        <option value="0.38">mercurio</option>
+        <option value="0.91">venus </option>
+        <option value="0.38">marte </option>
+        <option value="2.34">jupiter</option>
+        <option value="0.93">saturno</option>
+        <option value="0.92">urano </option>
+        <option value="1.12">nepturno</option>
+    </select>
+
+    <br><br>
+
+    <input type="button" value="calcular" onclick="mifuncion()">
+
+    <br><br>
+    <p id="resultado"></p>
+
+    <script>
+        function mifuncion() {
+            var peso = document.getElementById("peso").value;
+
+            var planeta = document.getElementById("planeta").value;
+
+            var resultado = peso * planeta;
+
+            document.getElementById("resultado").innerHTML = "su peso es " + resultado + " kilos";
+        }
+
+    </script>
+    </section>
+
+<section >
+    <a href="#index.html" class="regreso"><b>regreso</b></a>
+</section>
+
+</body>
+
+</html>
